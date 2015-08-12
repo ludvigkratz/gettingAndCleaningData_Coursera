@@ -111,7 +111,7 @@ run_analysis <- function(){
       
       write.table(averaged_data, file = "./data/tidy_data_step_5.txt", row.names = FALSE)
 
-      #Return data_set from step 4.
-      data_set
+      #Return data_set from step 5.
+      averaged_data
 }
       
